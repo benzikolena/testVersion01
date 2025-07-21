@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Timer plugin",
+  "version": "1.0",
+  "description": "Timer",
+  "action": {
+    "default_popup": "popupTimer.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    },
+    "default_title": "Click here to run timer!"
+  },
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'self'; font-src 'self' https://db.onlinewebfonts.com;"
+  }
+}
